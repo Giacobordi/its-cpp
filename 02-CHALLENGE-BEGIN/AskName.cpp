@@ -5,13 +5,19 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main () {
-    std::string name;
-    std::cin >> name;
 
-    std::cout << name;
+    string name;
 
-    std::cout << std::endl << std::endl;
+    cout <<"Come ti chiami?" << endl;
+
+    cin >> name;
+
+    cout << "Il tuo nome è: " << name;
+
+    cout << endl << endl;
 
     return(0);
 }
